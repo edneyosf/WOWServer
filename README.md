@@ -16,7 +16,7 @@ Unzip the files `TDB_full_world_335.23061_2023_06_14.7z` and `worldserver.7z` lo
 
 ## Docker
 
-We have two containers with the following names: `core_wow` and `database_wow`.
+We have two containers with the following names: `core_wow` (`wow:core`) and `database_wow` (`wow:database`).
 
 - **core_wow** - holds core server data on `3724` and `8085` port.
 - **database_wow** - holds database server on `3306` port.
