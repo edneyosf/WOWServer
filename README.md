@@ -1,6 +1,6 @@
 # World of Warcraft Server
 
-<image src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<image src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white"/> <image src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 
 [![Version](https://img.shields.io/badge/Version-v1.0-success)]()
 [![Version](https://img.shields.io/badge/Ubuntu-v22.04-blue)]()
