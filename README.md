@@ -12,3 +12,11 @@ Docker
 ```
 docker compose up
 ```
+Para iniciar
+
+```
+./worldserver
+```
+```
+./authserver
+```
