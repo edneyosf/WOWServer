@@ -56,14 +56,14 @@ In `core_wow` container.
 ### World
 
 ```
-./start-world
+start-world
 ```
 > To start the World server
 
 ### Authentication
 
 ```
-./start-auth
+start-auth
 ```
 > To start the Authentication server
 
