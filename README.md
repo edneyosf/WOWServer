@@ -6,3 +6,9 @@
 Baseado no TrinityCore `v3.3.5a` 05/10/2023 e compilado no `Ubuntu v22.04`
 
 Descompactar o arquivo `TDB_full_world_335.23061_2023_06_14.7z` e `worldserver.7z` localizado no diretório `bin`
+
+Docker
+
+```
+docker compose up
+```
