@@ -96,6 +96,7 @@ GM commands can be entered mainly in 2 ways. Either by typing it directly into t
 account create
 ```
 > Syntax: account create $account $password
+
 > Create account and set password to it.
 
 ### Delete an account
@@ -104,6 +105,7 @@ account create
 account delete
 ```
 > Syntax: account delete $account
+
 > Delete account with all characters.
 
 ### Online accounts
@@ -112,6 +114,7 @@ account delete
 account onlinelist
 ```
 > Syntax: account onlinelist
+
 > Show list of online accounts.
 
 ### Select account
@@ -120,6 +123,7 @@ account onlinelist
 account set
 ```
 > Syntax: account set $subCommand
+
 > Type account set to see the list of possible subcommands or help account set $subCommand to see info on subcommands.
 
 ### Change account password
@@ -128,6 +132,7 @@ account set
 account password
 ```
 > Syntax: account password $oldPassword $newPassword $newPassword
+
 > Change your account password.
 
 #### GM
@@ -136,6 +141,7 @@ account password
 account set gmlevel
 ```
 > Syntax: account set gmlevel $account $level $realmid
+
 > Set the security level for targeted player (can't be used at self) or for account $name to a level of $level on the realm $realmID. $level may range from 0 to 3. $reamID may be -1 for all realms.
 
 ### Addon
@@ -144,6 +150,7 @@ account set gmlevel
 account set addon
 ```
 > Syntax: account set addon $account
+
 > Set user (possible targeted) expansion addon level allowed. Addon values: 0 - normal, 1 - tbc, 2 - wotlk.
 
 ### Announce
@@ -152,6 +159,7 @@ account set addon
 announce
 ```
 > Syntax: announce $messageToBroadcast
+
 > Send a global message to all players online in chat log.
 
 ### Rename character
@@ -160,4 +168,5 @@ announce
 character rename
 ```
 > Syntax: character rename $name
+
 > Mark selected in game or by $name in command character for rename at next login.
