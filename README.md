@@ -170,3 +170,9 @@ character rename
 > Syntax: character rename $name
 
 > Mark selected in game or by $name in command character for rename at next login.
+
+## Backup
+
+> mysqldump -u root -p auth > auth-backup.sql
+> mysqldump -u root -p characters > characters-backup.sql
+> mysqldump -u root -p world > world-backup.sql
