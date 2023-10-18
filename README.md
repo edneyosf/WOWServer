@@ -174,5 +174,7 @@ character rename
 ## Backup
 
 > mysqldump -u root -p auth > auth-backup.sql
+
 > mysqldump -u root -p characters > characters-backup.sql
+
 > mysqldump -u root -p world > world-backup.sql
