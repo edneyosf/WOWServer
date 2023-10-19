@@ -6,8 +6,6 @@ networks:
 services:
   core:
     image: wow:core
-    cpu_period: 50000
-    cpu_quota: 25000
     build:
       context: .
       dockerfile: "core.Dockerfile"
@@ -29,8 +27,6 @@ services:
     restart: always
   database:
     image: wow:database
-    cpu_period: 50000
-    cpu_quota: 25000
     build:
       context: .
       dockerfile: "database.Dockerfile"
