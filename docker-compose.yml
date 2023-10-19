@@ -42,7 +42,7 @@ services:
       wow:
         ipv4_address: 172.20.0.2
     ports:
-      - "3306:3306"
+      - "3306"
     environment:
       MYSQL_ROOT_PASSWORD: 220820
     restart: always
