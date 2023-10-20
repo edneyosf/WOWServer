@@ -173,8 +173,57 @@ character rename
 
 ## Backup
 
-> mysqldump -u root -p auth > auth-backup.sql
+### Save
 
-> mysqldump -u root -p characters > characters-backup.sql
+In `database_wow` container, run the following command
 
-> mysqldump -u root -p world > world-backup.sql
+```
+mysqldump -u root -p auth > auth.sql
+```
+```
+mysqldump -u root -p characters > characters.sql
+```
+```
+mysqldump -u root -p world > world.sql
+```
+
+Outside the `database_pw` container
+
+```
+docker cp database_wow:/auth.sql .
+```
+```
+docker cp database_wow:/characters.sql .
+```
+```
+docker cp database_wow:/world.sql .
+```
+
+> To save the databases backup
+
+### Restore
+
+```
+docker cp auth.sql database_wow:/
+```
+```
+docker cp characters.sql database_wow:/
+```
+```
+docker cp world.sql database_wow:/
+```
+
+In `database_wow` container, run the following command
+
+```
+mysql -u root -p auth < auth.sql
+```
+```
+mysql -u root -p characters < characters.sql
+```
+```
+mysql -u root -p world < world.sql
+```
+
+> Restore databases backup
+
