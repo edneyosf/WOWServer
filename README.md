@@ -6,7 +6,7 @@
 [![Version](https://img.shields.io/badge/Ubuntu-v22.04-blue)]()
 
 Based on **TrinityCore** branch `3.3.5` (**v3.3.5a.12340**) and compiled on **Ubuntu v22.04**.
-> Compiled on 05/10/2023
+> Compiled on 18/10/2024
 
 --------------
 
