@@ -31,13 +31,13 @@ services:
       context: .
       dockerfile: "database.Dockerfile"
     container_name: database_wow
-    volumes:
-      - ./util/wow.sql:/wow.sql
     command: --default-authentication-plugin=mysql_native_password
+    volumes:
+      - ./TrinityCore:/TrinityCore
     networks:
       wow:
         ipv4_address: 172.20.0.2
-    ports:
+    expose:
       - "3306"
     environment:
       MYSQL_ROOT_PASSWORD: 220820
