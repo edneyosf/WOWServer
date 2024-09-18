@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white"/> <image src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white"/> <image src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 
-[![Version](https://img.shields.io/badge/Version-v1.0-success)]()
+[![Version](https://img.shields.io/badge/Version-v1.1-success)]()
 [![Version](https://img.shields.io/badge/Ubuntu-v22.04-blue)]()
 
 Based on **TrinityCore** branch `3.3.5` (**v3.3.5a.12340**) and compiled on **Ubuntu v22.04**.
@@ -40,12 +40,6 @@ By default Trinity needs three databases to run with the following names: Auth, 
 - **auth** - holds account data - usernames, passwords, GM access, realm information, etc.
 - **characters** - holds character data - created characters, inventory, bank items, auction house, tickets, etc.
 - **world** - holds game-experience content such as NPCs, quests, objects, etc.
-
-In `database_wow` container run the command to create the databases.
-```
-mysql -u root -p < wow.sql
-```
-> $ docker exec -it database_wow bash
 
 ## Start servers
 
