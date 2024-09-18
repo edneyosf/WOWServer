@@ -12,7 +12,7 @@ Based on **TrinityCore** branch `3.3.5` (**v3.3.5a.12340**) and compiled on **Ub
 
 ## Requirements
 
-Unzip the files `TDB_full_world_335.23061_2023_06_14.zip` and `worldserver.zip` localized in the `bin` directory.
+Unzip the files `TDB_full_world_335.24081_2024_08_17.7z` and `worldserver.7z` localized in the `bin` directory.
 
 ## Docker
 
