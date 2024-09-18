@@ -1,8 +1,9 @@
 # World of Warcraft Server
 
-<img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white"/> <image src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white"/> <image src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white"/> <image src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=Ubuntu&logoColor=white"/> <image src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 
 [![Version](https://img.shields.io/badge/Version-v1.1-success)]()
+[![Version](https://img.shields.io/badge/MySQL-v8.1-blue)]()
 [![Version](https://img.shields.io/badge/Ubuntu-v22.04-blue)]()
 
 Based on **TrinityCore** branch `3.3.5` (**v3.3.5a.12340**) and compiled on **Ubuntu v22.04**.
