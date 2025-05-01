@@ -1,44 +1,33 @@
-networks:
-  wow:
-    ipam:
-      config:
-        - subnet: 172.20.0.0/24
 services:
+
   core:
-    image: wow:core
-    build:
-      context: .
-      dockerfile: "core.Dockerfile"
     container_name: core_wow
+    image: wow:3.3.5a
     volumes:
       - ./data:/home/wow/server/data
       - ./etc:/home/wow/server/etc
       - ./bin:/home/wow/server/bin
-      - ./TrinityCore:/home/wow/TrinityCore
-    networks:
-      wow:
-        ipv4_address: 172.20.0.3
+      - ../TrinityCore:/home/wow/TrinityCore
     ports:
-      - "3724:3724"
-      - "8085:8085"
+      - 3724:3724
+      - 8085:8085
     depends_on:
       - database
     stdin_open: true
-    restart: always
+    restart: no
+
   database:
-    image: wow:database
-    build:
-      context: .
-      dockerfile: "database.Dockerfile"
     container_name: database_wow
-    command: --default-authentication-plugin=mysql_native_password
+    image: mysql:8.4
+    command: --mysql-native-password=ON
     volumes:
-      - ./TrinityCore:/TrinityCore
-    networks:
-      wow:
-        ipv4_address: 172.20.0.2
+      - database:/var/lib/mysql
+      - ../TrinityCore/sql:/TrinityCore
     expose:
-      - "3306"
+      - 3306
     environment:
-      MYSQL_ROOT_PASSWORD: 220820
-    restart: always
+      MYSQL_ROOT_PASSWORD: 123
+    restart: no
+
+volumes:
+  database:

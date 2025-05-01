@@ -1,10 +1,10 @@
 # World of Warcraft Server
 
-[![Version](https://img.shields.io/badge/MySQL-v8.1-blue)]()
-[![Version](https://img.shields.io/badge/Ubuntu-v22.04-blue)]()
+[![Version](https://img.shields.io/badge/MySQL-v8.4-blue)]()
+[![Version](https://img.shields.io/badge/Debian-v12.10-blue)]()
 
-Based on **TrinityCore** branch `3.3.5` (**v3.3.5a.12340**) and compiled on **Ubuntu v22.04**.
-> Compiled on 18/10/2024
+Based on **TrinityCore** branch `3.3.5` (**v3.3.5a.12340**) and compiled on **Debian v12.10**.
+> Compiled on 01/05/2025
 
 --------------
 
